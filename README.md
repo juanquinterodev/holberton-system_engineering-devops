@@ -1,1 +1,1 @@
-learning shell
+basics shell
