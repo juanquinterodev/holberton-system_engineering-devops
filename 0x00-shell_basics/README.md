@@ -1,1 +1,1 @@
-absolute path name
+shell basics
