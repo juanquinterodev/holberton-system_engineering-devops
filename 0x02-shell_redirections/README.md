@@ -1,2 +1,1 @@
-VimCrypt~03!á^	­»
-ÉÍişÿR•½†8>éUñ…¦¹r[p¦¼Š
+shell directions
