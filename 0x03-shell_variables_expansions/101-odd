@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -1 | paste - - | cut -f 1#!/bin/bash
+ls -1 | paste - - | cut -f 1
