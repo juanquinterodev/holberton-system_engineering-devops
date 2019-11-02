@@ -1,5 +1,6 @@
 !#/usr/bin/env bash
 # Display current directory without number
-for x in *; do
+for x in *
+do
 	echo "$x" | cut -f 2 -d '-'
 done
