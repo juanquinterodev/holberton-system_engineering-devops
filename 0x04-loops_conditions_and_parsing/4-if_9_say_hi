@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Display 10 times with while and condition
+x=1
+while [ $x -le 10 ]
+do
+	if [ "$x" -eq 9 ]
+	then
+		echo "Holberton School"
+		echo "Hi"
+		x=$((x + 1))
+	else
+		echo "Holberton School"
+		x=$((x + 1))
+	fi
+done
