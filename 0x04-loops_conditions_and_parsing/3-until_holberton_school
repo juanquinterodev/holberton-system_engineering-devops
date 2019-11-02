@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+x=1
+until [ $x -le 10]
+do
+	echo "Holberton School"
+	x=$((x+1))
+done
