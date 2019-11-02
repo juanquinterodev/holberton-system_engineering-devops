@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Display number 1-20 with cases
+x=1
+while [ $x -le 20 ]
+do
+	case $x in
+		4)
+			echo "$x"
+			echo "bad luck from China"
+		;;
+		9)
+			echo "$x"
+			echo "bad luck from Japan"
+		;;
+		17)
+			echo "$x"
+			echo "bad luck from Italy"
+		;;
+		*)
+			echo "$x"
+		;;
+	esac
+	x=$((x+1))
+done			
