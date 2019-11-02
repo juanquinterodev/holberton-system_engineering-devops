@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displays /etc/passwd
+FILENAME="/etc/passwd"
+while read -r FILENAME;
+do
+  echo "$FILENAME" | cut -d ':' -f 1,3,6
+done < $FILENAME
