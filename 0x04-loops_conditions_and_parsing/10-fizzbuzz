@@ -13,7 +13,7 @@ do
     then
         echo "Buzz"
     else
-        echo "$i"
+        echo "$x"
     fi
-    x=$(( i + 1 ))
+    x=$(( x + 1 ))
 done
