@@ -1,6 +1,7 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+# Display with until
 x=1
-until [ $x -le 10]
+until [ $x -gt 10 ]
 do
 	echo "Holberton School"
 	x=$((x+1))
