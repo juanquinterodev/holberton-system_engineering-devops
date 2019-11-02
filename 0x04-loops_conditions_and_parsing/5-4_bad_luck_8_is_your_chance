@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Display bad luch if 4, good luch if 8, Holberton School otherwise
+x=1
+while [ $x -le 10 ]
+do
+	if [ "$x" -eq 4 ]
+	then
+		echo "bad luck"
+		x=$((x + 1))
+	elif [ "$x" -eq 8 ]
+	then
+		echo "good luck"
+		x=$((x + 1))
+	else
+		echo "Holberton School"
+		x=$((x + 1))
+	fi
+done
