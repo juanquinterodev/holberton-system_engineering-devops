@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# FizzBuzz task
+x=1
+while [ $x -le 100 ]
+do
+    if (( x % 5 == 0 )) && (( x % 3 == 0 ))
+    then
+        echo "FizzBuzz"
+    elif (( i % 3 == 0 ))
+    then
+        echo "Fizz"
+    elif (( i % 5 == 0 ))
+    then
+        echo "Buzz"
+    else
+        echo "$i"
+    fi
+    i=$(( i + 1 ))
+done
