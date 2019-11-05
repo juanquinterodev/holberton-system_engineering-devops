@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays process with word bash
+
+pgrep -l bash
