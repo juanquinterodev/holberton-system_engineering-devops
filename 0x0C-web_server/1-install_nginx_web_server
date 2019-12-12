@@ -2,6 +2,5 @@
 # configures a new Ubuntu machine to respecting requirements
 apt-get update
 apt-get -y install nginx
-echo "Holberton School" > /var/www/html/index
-rm replace
+echo "Holberton School" > /var/www/html/index.html
 service nginx start
