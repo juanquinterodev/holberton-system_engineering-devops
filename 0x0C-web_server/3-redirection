@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Configure Nginx server so that /redirect_me is redirecting to another page.
-
-apt-get -y update
+# Configure your Nginx server so that /redirect_me is redirecting to another page.
+apt-get update
 apt-get -y install nginx
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
-sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-service nginx start
+text="rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
+sed -i "19i $text" /etc/nginx/sites-available/default
+service nginx restart
