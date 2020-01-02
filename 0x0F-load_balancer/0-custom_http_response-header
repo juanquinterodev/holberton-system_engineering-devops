@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configures a brand new Ubuntu machine to the requirements asked
+apt-get update
+apt-get -y install nginx
+headers="add_header X-Served-By $HOSTNAME;"
+sed -i "20i $headers" /etc/nginx/sites-available/default
+service nginx restart
